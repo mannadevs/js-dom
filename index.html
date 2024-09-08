@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript HTML DOM</title>
+    <title>JavaScript Worker</title>
 
     <!-- css style -->
      <style>
@@ -12,9 +12,14 @@
 </head>
 <body>
     
+    <button type="button" onclick="startWorker()">start worker</button>
+    <button type="button" onclick="stopWorker()">stop worker</button>
+    <button onclick="alert('hello')">click</button>
+    <p id="display"></p>
 
 
     <!-- script link -->
-     <script src="./js-dom.js"></script>
+    <script src="./worker.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
